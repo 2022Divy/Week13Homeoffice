@@ -1,6 +1,6 @@
-package com.parabank.testbase;
+package com.HomeOffice.testbase;
 
-import com.parabank.utility.Utility;
+import com.HomeOffice.utility.Utility;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
  */
 public class TestBase extends Utility {
 
-    private com.parabank.propertyreader.PropertyReader PropertyReader;
+    private com.HomeOffice.propertyreader.PropertyReader PropertyReader;
     String browser = PropertyReader.getInstance().getProperty("browser");
 
     @BeforeMethod

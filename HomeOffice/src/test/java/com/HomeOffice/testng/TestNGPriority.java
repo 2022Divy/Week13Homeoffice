@@ -1,4 +1,4 @@
-package com.parabank.testng;
+package com.HomeOffice.testng;
 
 import org.testng.annotations.Test;
 

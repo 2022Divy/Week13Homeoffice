@@ -1,8 +1,9 @@
-package com.parabank.testsuite;
+package com.HomeOffice.testsuite;
 
-import com.parabank.pages.Register;
-import com.parabank.pages.LoginTest;
-import com.parabank.testbase.TestBase;
+import com.HomeOffice.pages.Register;
+import com.HomeOffice.pages.startPage;
+import com.HomeOffice.testbase.TestBase;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 /**
@@ -14,11 +15,23 @@ public class LoginPageTest extends TestBase {
     Register loginPage = new Register();
 
     LoginTest loginTest = new LoginTest();
-
-    @Test
-    public void regform1() {
-        loginPage.registerform();
+    startPage start = new startPage();
+    @BeforeMethod
+    public void inIt(){
+        start = new startPage();
     }
 
+    //@Test
+    //public void regform1() {
+     //   loginPage.registerform();
+    //}
+    @Test
+    public void anaus(){
+    start.anAustralianCominToUKForTourism();
+    }
+    @Test
+    public void aClile(){
+        start.aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths();
+    }
 
 }

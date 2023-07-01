@@ -1,7 +1,7 @@
-package com.parabank.testsuite;
+package com.HomeOffice.testsuite;
 
-import com.parabank.pages.Register;
-import com.parabank.testbase.TestBase;
+import com.HomeOffice.pages.Register;
+import com.HomeOffice.testbase.TestBase;
 import org.testng.annotations.Test;
 
 /**
@@ -11,7 +11,7 @@ public class LoginTest extends TestBase {
 
     Register loginPage = new Register();
 
-    com.parabank.pages.LoginTest loginTest = new com.parabank.pages.LoginTest();
+    com.HomeOffice.pages.LoginTest loginTest = new com.HomeOffice.pages.LoginTest();
 
     @Test
     public void loginform() {

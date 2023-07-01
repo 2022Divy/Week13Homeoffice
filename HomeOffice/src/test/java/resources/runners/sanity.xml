@@ -8,7 +8,7 @@
     </groups>
     <test name="Sanity Test">
         <classes>
-            <class name="com.nopcommerce.demo.testsuite.LoginPageTest"></class>
+            <class name="com.HomeOffice.testsuite.LoginPageTest"></class>
         </classes>
     </test>
 </suite>

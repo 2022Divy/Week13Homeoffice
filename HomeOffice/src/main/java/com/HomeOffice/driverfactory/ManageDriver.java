@@ -1,6 +1,6 @@
-package com.parabank.driverfactory;
+package com.HomeOffice.driverfactory;
 
-import com.parabank.propertyreader.PropertyReader;
+import com.HomeOffice.propertyreader.PropertyReader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;

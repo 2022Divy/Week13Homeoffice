@@ -1,4 +1,4 @@
-package com.parabank.testsuite;
+package com.HomeOffice.testsuite;
 
 public class Test1 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.parabank.propertyreader;
+package com.HomeOffice.propertyreader;
 
 import java.io.FileInputStream;
 import java.util.Properties;

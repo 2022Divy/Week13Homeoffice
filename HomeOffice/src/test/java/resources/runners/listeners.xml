@@ -2,12 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="testsuite" verbose="1">
     <listeners>
-        <listener class-name="com.parabank.testng.TestNGListeners"></listener>
+        <listener class-name="com.HomeOffice.testng.TestNGListeners"></listener>
     </listeners>
     
     <test name="Login test">
         <classes>
-            <class name="com.parabank.testsuite.LoginPageTest"></class>
+            <class name="com.HomeOffice.testsuite.LoginPageTest"></class>
         </classes>
     </test>
 

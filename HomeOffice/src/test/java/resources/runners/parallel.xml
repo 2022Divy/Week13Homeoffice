@@ -4,7 +4,7 @@
     <test name="Chrome Test">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="com.nopcommerce.demo.testsuite.LoginPageTest"></class>
+            <class name="com.HomeOffice.testsuite.LoginPageTest"></class>
         </classes>
     </test>
     <test name="FireFox Test">

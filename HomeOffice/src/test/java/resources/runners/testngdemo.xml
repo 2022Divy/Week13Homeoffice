@@ -3,15 +3,15 @@
 <suite name="testsuite" verbose="1">
 
     <listeners>
-        <listener class-name="com.nopcommerce.demo.customlisteners.CustomListeners"></listener>
+        <listener class-name="com.HomeOffice.customlisteners.CustomListeners"></listener>
         <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
 
     </listeners>
     <test name="Login Test">
         <classes>
-            <class name="com.nopcommerce.demo.testsuite.LoginPageTest"></class>
-            <class name="com.nopcommerce.demo.testsuite.Test1"></class>
-            <class name="com.nopcommerce.demo.testsuite.Test2"></class>
+            <class name="com.HomeOffice.testsuite.LoginPageTest"></class>
+            <class name="com.HomeOffice.testsuite.Test1"></class>
+            <class name="com.HomeOffice.testsuite.Test2"></class>
         </classes>
     </test>
 </suite>

@@ -3,13 +3,13 @@
 <suite name="testsuite" verbose="1">
 
     <listeners>
-        <listener class-name="com.parabank.customlisteners.CustomListeners"></listener>
+        <listener class-name="com.HomeOffice.customlisteners.CustomListeners"></listener>
         <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
 
     </listeners>
     <test name="Login Test">
         <classes>
-            <class name="com.parabank.testsuite.LoginTest"></class>
+            <class name="com.HomeOffice.testsuite.LoginTest"></class>
         </classes>
     </test>
 </suite>

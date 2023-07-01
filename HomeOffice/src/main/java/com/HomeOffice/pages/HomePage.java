@@ -1,6 +1,6 @@
-package com.parabank.pages;
+package com.HomeOffice.pages;
 
-import com.parabank.utility.Utility;
+import com.HomeOffice.utility.Utility;
 import org.openqa.selenium.By;
 import org.testng.Reporter;
 

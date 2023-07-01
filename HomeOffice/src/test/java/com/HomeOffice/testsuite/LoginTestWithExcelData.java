@@ -1,9 +1,9 @@
-package com.parabank.testsuite;
+package com.HomeOffice.testsuite;
 
-import com.parabank.excelutility.ExcelUtility;
-import com.parabank.pages.HomePage;
-import com.parabank.pages.Register;
-import com.parabank.testbase.TestBase;
+import com.HomeOffice.excelutility.ExcelUtility;
+import com.HomeOffice.pages.HomePage;
+import com.HomeOffice.pages.Register;
+import com.HomeOffice.testbase.TestBase;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

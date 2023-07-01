@@ -1,9 +1,9 @@
-package com.parabank.testsuite;
+package com.HomeOffice.testsuite;
 
-import com.parabank.pages.HomePage;
-import com.parabank.pages.Register;
-import com.parabank.propertyreader.PropertyReader;
-import com.parabank.utility.Utility;
+import com.HomeOffice.pages.HomePage;
+import com.HomeOffice.pages.Register;
+import com.HomeOffice.propertyreader.PropertyReader;
+import com.HomeOffice.utility.Utility;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;

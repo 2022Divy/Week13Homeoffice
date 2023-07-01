@@ -8,8 +8,8 @@
     </groups>
     <test name="Login test">
         <classes>
-            <class name="com.nopcommerce.demo.testsuite.LoginPageTest"></class>
-            <class name="com.nopcommerce.demo.testsuite.Test2"></class>
+            <class name="com.HomeOffice.testsuite.LoginPageTest"></class>
+            <class name="com.HomeOffice.testsuite.Test2"></class>
         </classes>
     </test>
 </suite>

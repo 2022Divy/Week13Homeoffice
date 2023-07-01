@@ -1,14 +1,11 @@
-package com.parabank.testsuite;
+package com.HomeOffice.testsuite;
 
-import com.parabank.pages.HomePage;
-import com.parabank.pages.Register;
-import com.parabank.testbase.TestBase;
-import org.testng.annotations.Test;
-import resources.testdata.TestData;
+import com.HomeOffice.pages.HomePage;
+import com.HomeOffice.pages.Register;
+import com.HomeOffice.testbase.TestBase;
+//import resources.testdata.TestData;
 
-/**
- * Created by Bhavesh
- */
+
 public class LoginPageTestWithDataProvider extends TestBase {
 
     HomePage homePage= new HomePage();
@@ -16,7 +13,7 @@ public class LoginPageTestWithDataProvider extends TestBase {
 
 
 
-    @Test (dataProvider = "logindata", dataProviderClass = TestData.class)
+  //  @Test (dataProvider = "logindata", dataProviderClass = TestData.class)
     public void doLogin(String username, String password){
     homePage.clickOnLoginLink();
     //loginPage.loginToApplication(username,password);

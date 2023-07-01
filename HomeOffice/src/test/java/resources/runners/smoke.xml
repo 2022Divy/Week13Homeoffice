@@ -8,7 +8,7 @@
     </groups>
     <test name="sanity">
         <classes>
-            <class name="com.nopcommerce.demo.testng.TestNGGrouping"></class>
+            <class name="com.HomeOffice.testng.TestNGGrouping"></class>
         </classes>
     </test>
 </suite>
